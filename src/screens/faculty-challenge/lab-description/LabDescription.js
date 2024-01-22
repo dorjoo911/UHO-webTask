@@ -74,27 +74,25 @@ const LabDescription = () => {
           Researchers are refining the concentration and application of atropine
           to optimize its effectiveness while minimizing side effects.
         </p>
-        {/* Slideshow Component */}
+        
         <div className="slideshow">
           <img src={slideshowImgs[currentSlide]} alt="Slideshow Images" />
         </div>
-
-        {/* Embedded Video */}
+        
         <div className="video-embed">
           <video width="320" height="240" controls>
             <source src={embededVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
-
-        {/* Group Photos */}
+       
         <div className="group-photo">
           {groupImgs.map((imgSrc, index) => (
             <img
               key={index}
               src={imgSrc}
               alt={`Group Member ${index + 1}`}
-              loading="lazy" // Adding lazy loading
+              loading="lazy" 
             />
           ))}
         </div>
