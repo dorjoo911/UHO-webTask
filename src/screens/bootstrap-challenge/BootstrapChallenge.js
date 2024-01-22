@@ -1,5 +1,5 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css"; 
 import CustomCarousel from "../../components/custom-carousel/CustomCarousel";
 import CustomAccordion from "../../components/custom-accordion/CustomAccordion";
 
