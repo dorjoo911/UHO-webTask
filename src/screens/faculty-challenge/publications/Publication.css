@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=League+Gothic");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700");
+
+.publications-container {
+  font-family: "Crimson Text", serif;
+  color: #54585a;
+  padding: 20px;
+  background-color: #fff9d9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 10%;
+}
+
+.publications-container h2 {
+  font-family: "League Gothic", sans-serif;
+  color: #c8102e;
+  margin-bottom: 10px;
+}
+
+.publications-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.publications-container li {
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-left: 5px solid #c8102e;
+  font-weight: 400;
+}
+
+.publications-container li:last-child {
+  margin-bottom: 0;
+}
+
+.publications-container li:hover {
+  background-color: #f0f0f0;
+}
+
+@media (min-width: 768px) {
+  .publications-container {
+    padding: 40px;
+  }
+
+  li {
+    padding: 20px;
+  }
+}

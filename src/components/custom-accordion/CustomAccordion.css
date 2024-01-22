@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=League+Gothic");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400");
+
+.accordion-button:not(.collapsed) {
+  background-color: #c8102e;
+  color: white;
+}
+
+.accordion-header {
+  font-family: "League Gothic", sans-serif;
+  color: #c8102e;
+}
+
+.accordion-body,
+.accordion-body li {
+  font-family: "Crimson Text", serif;
+}

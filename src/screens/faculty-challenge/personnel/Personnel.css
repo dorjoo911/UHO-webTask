@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=League+Gothic");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400");
+
+.personnel-card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px 10%;
+  font-family: "Crimson", serif;
+}
+
+.personnel-card h2 {
+  font-family: "League Gothic", sans-serif;
+  color: #c8102e;
+}
+
+.personnel-card p {
+  color: #888b8d;
+}
+
+button {
+  background-color: #c8102e;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: "Milo", sans-serif;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #960c22;
+}
+
+.personnel-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

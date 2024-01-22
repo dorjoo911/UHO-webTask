@@ -1,0 +1,47 @@
+/* Custom styles for Slide 1,2 text */
+.slide12-caption h3,
+.slide12-caption p {
+  color: white; /* Adjust text color as needed */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000; /* Black border effect */
+}
+
+/* Slide 3 - Colored Background with Centered Video */
+.slide3-background {
+  background-color: #888b8d; /* Light gray background */
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-video {
+  max-width: 80%;
+  height: auto;
+}
+
+/* Slide 4 - Animated Content */
+.slide4-animated-content {
+  position: relative;
+  height: 500px; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animated-image {
+  opacity: 0;
+  transform: scale(0.5); /* Start at half size */
+  animation: fadeInScaleUp 2s ease forwards;
+}
+
+@keyframes fadeInScaleUp {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

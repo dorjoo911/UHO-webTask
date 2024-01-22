@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=League+Gothic");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700");
+
+.contact-container {
+  font-family: "Crimson Text", serif;
+  color: #54585a;
+  background-color: #fff9d9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.contact-container h2 {
+  font-family: "League Gothic", sans-serif;
+  color: #c8102e;
+  margin-bottom: 20px;
+}
+
+.contact-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.contact-container input[type="text"],
+.contact-container input[type="email"],
+.contact-container input[type="tel"],
+.contact-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #888b8d;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact-container button {
+  background-color: #c8102e;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Crimson Text", serif;
+  font-size: 16px;
+}
+
+.contact-container button:hover {
+  background-color: #960c22;
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    padding: 40px;
+  }
+}
