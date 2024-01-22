@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Research.css"; // Import your custom CSS file for styling
+import "./Research.css";
 import Header from "../../../components/header-nav/Header";
 
 export default function Research() {
